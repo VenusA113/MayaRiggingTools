@@ -152,7 +152,5 @@ class LimbRiggerWidget(QWidget):     # commandPort -n "localhost:7001" -stp "mel
         return "34dd91ad419r1e01b14a40fcbdd097b0"
  
 def Run():
-    global LimbRiggerWidget
-    LimbRiggerWidget = LimbRiggerWidget() 
-    LimbRiggerWidget.show()  
+    LimbRiggerWidget().show()
 Run()
